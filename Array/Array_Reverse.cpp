@@ -29,8 +29,11 @@ void RecursiveFunction(int arr[], int size)
     RecursiveFunction(arr, size-1);
 
 }
+/**
 
-
+Time Complexity: O(n)
+Auxiliary Space: O(n), due to recursive call stack
+*/
 void reverseFunctions(int arr[], int size)
 {
     cout<< "Iterative Solution" << endl;
