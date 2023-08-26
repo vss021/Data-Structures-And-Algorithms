@@ -56,8 +56,7 @@ int main(){
         cin >> arr[i];
     }
 
-    reverseFunctions(arr, size);
-
+    
 
     
     return 0;
